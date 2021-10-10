@@ -1,0 +1,376 @@
+[02-Oct-2021 09:35:18 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/page.php on line 2
+[02-Oct-2021 09:35:18 UTC] PHP Stack trace:
+[02-Oct-2021 09:35:18 UTC] PHP   1. {main}() /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/index.php:0
+[02-Oct-2021 09:35:18 UTC] PHP   2. require() /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/index.php:17
+[02-Oct-2021 09:35:18 UTC] PHP   3. require_once() /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-blog-header.php:19
+[02-Oct-2021 09:35:18 UTC] PHP   4. include() /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/template-loader.php:106
+[02-Oct-2021 09:35:18 UTC] PHP   5. get_headers() /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/page.php:2
+[02-Oct-2021 10:21:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 7
+[02-Oct-2021 10:21:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 7
+[02-Oct-2021 10:21:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 7
+[02-Oct-2021 10:22:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 7
+[02-Oct-2021 10:52:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_menus() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/header.php:24
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/template.php(716): load_template('/Users/kritawit...', true, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/front-page.php(1): get_header()
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/template-loader.php(106): include('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-blog-header.php(19): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsi in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/header.php on line 24
+[09-Oct-2021 08:41:56 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 9
+[09-Oct-2021 08:42:56 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 9
+[09-Oct-2021 08:42:57 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 9
+[09-Oct-2021 08:42:57 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 9
+[09-Oct-2021 08:42:57 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 9
+[09-Oct-2021 10:05:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:05:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:06:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:07:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:08:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:08:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:09:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:10:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:10:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:11:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:12:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:12:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:13:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:14:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 10:15:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 11:06:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:40:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:41:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:42:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:44:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:45:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:46:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:47:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:48:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:49:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 13:50:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:00:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:01:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:02:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:02:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin.php(34): require_ in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:02:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22): req in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:03:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_image_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin-ajax.php(22 in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_image_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin.php(34): re in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_image_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-blog-header.php(13): re in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_image_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin.php(34): re in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_image_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-blog-header.php(13): re in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_image_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-admin/admin.php(34): re in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
+[09-Oct-2021 14:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_image_size() in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php:5
+Stack trace:
+#0 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(303): lagoonpizza_setup('')
+#1 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-settings.php(556): do_action('after_setup_the...')
+#4 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-config.php(77): require_once('/Users/kritawit...')
+#5 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-load.php(50): require_once('/Users/kritawit...')
+#6 /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-blog-header.php(13): re in /Users/kritawitbunket/Local Sites/restaurantwebsite/app/public/wp-content/themes/lagoonpizza/functions.php on line 5
